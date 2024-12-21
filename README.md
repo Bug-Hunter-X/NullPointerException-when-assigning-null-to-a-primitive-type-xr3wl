@@ -1,0 +1,1 @@
+This bug demonstrates the NullPointerException that occurs when attempting to assign a null value to a primitive type variable in Scala.  Primitive types (like Int, Double, etc.) cannot hold null values.  The solution involves using an Option type to handle the possibility of a null value.
